@@ -399,7 +399,8 @@ color: var(--gris)
             display: grid;
             grid-template-columns: 1fr ;
             justify-content: space-between;
-            column-gap: 3rem;
+            padding: 14rem;
+
         }
         
     }
