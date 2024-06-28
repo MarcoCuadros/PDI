@@ -295,6 +295,13 @@ color: var(--gris)
     }
     
 }
+span{
+  display: flex;
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+  color:orange;
+}
 .arreglo{
     object-fit:cover;
 }
@@ -399,7 +406,7 @@ color: var(--gris)
             display: grid;
             grid-template-columns: 1fr ;
             justify-content: space-between;
-            padding: 1rem;
+            padding-left: 7rem;
 
         }
         
