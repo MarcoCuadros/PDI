@@ -861,7 +861,21 @@ font-weight: bold;
     justify-content: center;
     column-gap: 5rem;
   }
-
+  .flecha{
+    width: 200px;
+    height: 200px;
+  }
+  @media (max-width: 480px) {
+    .apoyo {
+      display: grid;
+      align-items: center;
+      column-gap: 0rem;
+    }
+    .flecha{
+      width: 100px;
+      height: 100px;
+    }
+  }
   .conten {
     display: flex;
     align-items: center;
@@ -873,10 +887,16 @@ font-weight: bold;
     width: 300px;
     height: 350px;
     position: relative;
-    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    background-color: var(--blanco);
     cursor: pointer;
     transition: all .3s;
   }
+  @media (max-width: 480px) {
+    .caja {
+      width: 200px;
+      height: 250px;
+    }
+}
   
   .caja:hover {
     transform: scale(0.9);
@@ -884,6 +904,13 @@ font-weight: bold;
   .caja img{
     padding-top: 5rem;
   }
+  @media (max-width: 480px) {
+    .caja img {
+      padding-top: 7rem;
+      width: 200px;
+      height: 250px;
+    }
+}
   
   .caja span {
     position: absolute;
