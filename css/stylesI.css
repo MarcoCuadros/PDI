@@ -686,6 +686,12 @@ font-weight: bold;
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i)*95deg)) translateZ(800px);
   }
+  @media (max-width: 768px){
+    .box span {
+      transform: rotateY(calc(var(--i)*95deg)) translateZ(160px);
+    }
+    
+  }
 
   .box span img{
     position: absolute;
