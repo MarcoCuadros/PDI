@@ -857,6 +857,10 @@ font-weight: bold;
     line-height: 25px;
     
   }
+  .mat{
+    font-size: 5rem;
+    
+  }
   
   .apoyo{
     display: flex;
